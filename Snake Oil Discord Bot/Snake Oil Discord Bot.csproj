@@ -6,4 +6,20 @@
     <RootNamespace>Snake_Oil_Discord_Bot</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TextFiles\CustomerList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TextFiles\Settings.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="TextFiles\WordList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
